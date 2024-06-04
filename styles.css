@@ -19,7 +19,7 @@
     cursor: url('pen.png'), auto;
 }
 
-   
+.word-wrap{word-wrap: break-word;}
 .sideBar {
 	position: fixed;
 	top: 50%;
@@ -32,5 +32,9 @@ body{
   min-height: 100%;
 }
 .content {
-	padding-left: 5.5rem; /* width of the sidebar plus a bit extra for separation */
+	margin-left: 5rem; /* width of the sidebar plus a bit extra for separation */
+  padding: 1rem;
+}
+.worksImg{
+ padding-left: 5rem;
 }
